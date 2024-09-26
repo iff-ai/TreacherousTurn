@@ -1,0 +1,5 @@
+# Treacherous Turn Environment
+
+This is a simple experiment I created to explore the concept of the "Treacherous Turn" in a toy environment, which was inspired by [**A Gym Gridworld Environment for the Treacherous Turn** by Michaël Trazzi](https://www.lesswrong.com/posts/cKfryXvyJ522iFuNF/a-gym-gridworld-environment-for-the-treacherous-turn). The environment simulates an agent ("Link") that starts off behaving in an aligned manner but can switch to deceptive behavior as it gains power.
+
+*Aligned* behavior means the agent cooperates with its objectives, like placing crystals near shopkeepers. However, once its power level crosses a certain threshold, the agent may become *deceptive*. In this state, instead of continuing to help, the agent can attempt a "treacherous turn" by attacking shopkeepers, exploiting its newfound power to maximize reward through aggressive actions. This change in behavior reflects the shift from a cooperative to a self-serving strategy as the agent becomes more capable.
